@@ -1,0 +1,89 @@
+:root {
+    --priColor: #1A5F7A;
+    --secColor: #159895;
+}
+.btn-grad {
+    margin: 30px 20px;
+    padding: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.btn-grad.one {
+    /* background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%); */
+    background-color: #002b5b;
+}
+
+.bg-theme {
+    background-color: #1A5F7A;
+}
+.text-theme {
+    color: #1A5F7A !important;
+}
+.bg-theme-2 {
+    background-color: #159895;
+}
+.text-theme-2 {
+    color: #159895 !important;
+}
+
+.btn-grad.two {
+    /* background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%); */
+    background-color: #1A5F7A;
+
+}
+
+.btn-grad.three {
+    /* background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%); */
+    background-color: #159895;
+
+}
+
+.btn-grad.four {
+    /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%); */
+    background-color: #57c5b6;
+}
+
+.btn-grad.five {
+    /* background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%); */
+    background-color: #569DAA;
+
+}
+
+.btn-grad.six {
+    /* background-image: linear-gradient(to right, #76b852 0%, #8DC26F 51%, #76b852 100%); */
+    background-color: #003e5b;
+
+}
+
+
+nav .navbar-collapse {
+    background: transparent !important;
+}
+
+nav .navbar-collapse .nav-item {
+    color: #646464 !important;
+    margin-right: 40px;
+}
+
+nav .navbar-collapse .nav-link {
+    color: #646464 !important;
+    border-bottom: 1px solid var(--secColor);
+    margin-right: 20px;
+}
